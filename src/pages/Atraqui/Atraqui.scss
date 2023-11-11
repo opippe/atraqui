@@ -1,0 +1,36 @@
+#side-bar.stowed~#atraqui__container {
+    margin-left: 2em;
+}
+
+#atraqui__container {
+    -o-transition: margin-left .2s ease-in;
+    transition: margin-left .2s ease-in;
+    margin: 0rem 0rem 0rem 2.5rem;
+    margin-left: 20rem;
+}
+
+#atraqui__container {
+    -o-transition: margin-left .2s ease-in;
+    transition: margin-left .2s ease-in;
+    margin: 0rem 0rem 0rem 2.5rem;
+    margin-left: 17.5rem;
+}
+
+@media screen and (max-width: 768px) {
+    #atraqui__container {
+        margin-left: 2em;
+    }
+}
+
+@media screen and (max-width: 1136px) {
+    #side-bar.stowed~#atraqui__container {
+        margin-left: 2em;
+    }
+}
+
+@media screen and (max-width: 1136px) {
+    #atraqui__container {
+        margin-right: 0em;
+    }
+}
+

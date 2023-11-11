@@ -1,0 +1,126 @@
+#side-bar.stowed {
+    left: -15.5em;
+
+    .fa-chevron-left {
+        transform: rotate(180deg);
+    }
+}
+
+
+#side-bar {
+    color: white;
+    border-right: 0px;
+    background-color: #383F51;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    position: fixed;
+    z-index: 50;
+    top: 0;
+    left: 0;
+    width: 17.5em;
+    height: 100%;
+    padding: 0;
+    -o-transition: left .2s ease-in;
+    transition: left .2s ease-in;
+
+    .title {
+        font-weight: bold;
+        font-size: 1.5rem;
+    }
+    
+    .side-bar__buttons {
+        position: relative;
+        top: 0;
+        left: 0;
+        right: 0;
+        display: flex;
+        justify-content: center;
+        padding: 10px;
+        background-color: #434b60;
+        max-height: 50px;
+        box-sizing: content-box;
+
+        .side-bar__toggle {
+            position: absolute;
+            top: 15px;
+            right: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 40px;
+            height: 40px;
+            font-size: 1.5rem;
+            border: none;
+            border-radius: 100%;
+            background-color: transparent;
+            color: white;
+            cursor: pointer;
+            z-index: 3;
+    
+            .fa-chevron-left {
+                transition: transform .2s ease-in-out;
+            }
+        }
+    
+        .side-bar__toggle:hover {
+            cursor: pointer;
+        }
+
+        .img-container {
+            max-width: 160px;
+
+            img {
+                filter: brightness(0) invert(1);
+                object-fit: cover;
+                width: 100%;
+            }
+        }
+    }
+
+    .side-bar__body {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        height: 85%;
+
+        .side-bar__content {
+            background: #d6249f;
+            background: linear-gradient(to right, red, orange);
+            box-shadow: 0px 3px 10px rgba(0,0,0,.25);
+            width: 180px;
+            height: 180px;
+            border-radius: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            .transparent {
+                width: 170px;
+                height: 170px;
+                background: #061117;
+                border-radius: 100%;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+
+                img {
+                    width: 160px;
+                    height: 160px;
+                    border-radius: 100%;
+                }
+            }
+        }
+    
+        .side-bar__menu {
+            font-size: 1rem;
+            display: flex;
+            flex-direction: column;
+            justify-self: flex-end;
+        }
+    }
+
+    h2 {
+        text-align: center;
+        margin: 1rem;
+    }
+
+}

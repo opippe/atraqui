@@ -1,0 +1,21 @@
+.side-bar__button {
+    padding: .75rem 0 .75rem .5rem;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    border: 1px solid transparent;
+    -o-transition-duration: .2s;
+    transition-duration: .2s;
+    margin: .25rem 2rem .25rem 0;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+
+    i {
+        margin-right: .75rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 20px;
+        height: 20px;
+    }
+}
